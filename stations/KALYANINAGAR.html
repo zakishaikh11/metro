@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KALYANI NAGAR METRO STATION</title>
+    <style>
+        * {
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      list-style: none;
+    }
+    body{
+        background-color: rgb(15, 24, 44);
+    }
+        #about {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff;
+    }
+    .text {
+      width: 100%;
+      max-width: 600px;
+      font-size: 18px;
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    p{
+        margin: 20px;
+    }
+    h1, .text, .btn2{
+      margin: 30px 0px;
+    }
+    h1{
+        background: linear-gradient(to right, #e7a323, rgb(255, 75, 225));
+            color:transparent;
+            background-clip: text;
+    }
+    hr{
+      border: none;
+      height: 5px;
+      background-image: linear-gradient(to right, #e7a323, rgb(255, 75, 225));
+    }
+    .image {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      padding-right:5% ;
+      padding-left: 5%;
+      padding-top: 5%;
+    }
+    .image img {
+      max-width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .btn2:hover {
+      background-color: transparent;
+      color: rgb(255, 75, 225);
+      border: 2px solid rgb(255, 75, 225);
+    }
+    .btn2{
+      background-color: rgb(255, 75, 225);
+      color: black;
+      border: none;
+      color: white;
+      padding: 16px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 12px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border-radius: 10px;
+    }
+    @media screen and (min-width: 860px) {
+      #about {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+      }
+      .image {
+        width: 50%;
+      }
+      .text {
+        width: 50%;
+      }
+    }
+    </style>
+</head>
+<body>
+    <div id="about">
+        <div class="image">
+          <img src="kn.jpg" alt="Your Image">
+        </div>
+        <div class="text">
+          <h1>KALYANI NAGAR METRO STATION</h1>
+          <hr style=" width: 50%; margin: 20px 25%;">
+          <p>Kalyani Nagar Metro Station is located at the centre of a key residential area and upcoming institutional development which will include offices, banks, shops, a mall and IT centres.<br> <br>
+            </p>
+            <a href="../stations.html">
+              <button class="btn2">Explore Other Stations</button>
+            </a>
+        </div>
+        </div>
+</body>
+</html>

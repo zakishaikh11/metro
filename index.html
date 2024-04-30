@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    #about {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .text {
+      width: 100%;
+      max-width: 600px;
+      text-align: center;
+      font-size: 17px;
+    }
+
+    .image {
+      width: 100%;
+      text-align: center;
+    }
+
+    .image img {
+      max-width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+
+    @media screen and (min-width: 860px) {
+      #about {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .image {
+        width: 50%;
+      }
+
+      .text {
+        width: 50%;
+        
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="green"></div>
+  <div id="about">
+    <div class="image">
+      <img src="metro_pic2.jpg" alt="Your Image">
+    </div>
+    <div class="text">
+      <h1>About Pune Metro</h1>
+      <p>Welcome to Pune Metro, where innovation meets convenience, and seamless connectivity transforms the way you experience urban transportation. Established with a vision to redefine commuting in the vibrant city of Pune, our metro system embodies efficiency, sustainability, and modernity. <br> At Pune Metro, we are committed to providing a world-class transportation solution that not only reduces travel time but also enhances the overall quality of life for our commuters. Our state-of-the-art metro network integrates cutting-edge technology, ensuring a safe, reliable, and comfortable journey for passengers. <br> Driven by a passion for progress, we strive to contribute to the city's growth by easing traffic congestion, minimizing environmental impact, and fostering economic development along our routes. Our team of dedicated professionals works tirelessly to maintain the highest standards of safety, cleanliness, and customer service. <br> As we connect neighborhoods, businesses, and cultural hubs, Pune Metro becomes more than just a mode of transportation; it becomes an integral part of the city's identity. Join us on this transformative journey, where every ride with Pune Metro is a step towards a smarter, sustainable, and interconnected future for Pune. </p>
+    </div>
+  </div>
+  <div class="green"></div>
+</body>
+
+</html>
